@@ -6,7 +6,7 @@ First, you have [GIT](https://git-scm.com/) installed on your computer!!!
 ```
 npm install -g gitloop
 // or
-yarn add -g gitloop
+yarn global add gitloop
 ```
 ### run
 ```
