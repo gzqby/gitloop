@@ -4,9 +4,9 @@ loop the git commands for directories!
 ### install
 First, you have [GIT](https://git-scm.com/) installed on your computer!!!
 ```
-npm install -g gitloop
+npm install -g loop-git
 // or
-yarn global add gitloop
+yarn global add loop-git
 ```
 ### run
 ```
