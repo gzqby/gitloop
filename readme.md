@@ -14,3 +14,6 @@ gitloop [git commands]
 // example:
 gitloop -o ../oneDir config user.name zigo
 ```
+## todo
+1. use motion friendly
+<!-- 2. --help -->
