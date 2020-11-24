@@ -1,0 +1,27 @@
+{
+  "name": "loop-git",
+  "version": "1.0.0",
+  "description": "Specify the parent folder and execute the git command cyclically for subfolder",
+  "main": "index.js",
+  "repository": "https://github.com/zgoby/gitloop.git",
+  "bin": {
+    "gitloop": "run.js"
+  },
+  "scripts": {
+    "start": "node ./run.js"
+  },
+  "keywords": [
+    "loop",
+    "git",
+    "commands"
+  ],
+  "author": "zigo",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "files": [
+    "index.js",
+    "run.js"
+  ]
+}
