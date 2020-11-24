@@ -40,7 +40,7 @@ function gitloop(resolveFolderUrl, {_only, _command}) {
       }
     });
   }else{
-    console.error(`please use: git ${_command}`);
+    console.error(`please use shell: cd ${resolveFolderUrl} && git ${_command}`);
   }
   cdOrigin(__dirname);
 }
