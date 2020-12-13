@@ -49,7 +49,7 @@ function parseErr(err, flag) {
   const errStr = err.toString()
   if(flag) {
     const stdoutFilterArr = /(.+)\n$/.exec(errStr);
-    return stdoutFilterArr.length>=1 ? stdoutFilterArr[1] : errStr;
+    return stdoutFilterArr && stdoutFilterArr.length>=1 ? stdoutFilterArr[1] : errStr;
   }
   const errParse = /(Command failed: ).+&& git (.+)\n$/.exec(errStr);
   return errParse && errParse.length >2 ? errParse[1]+errParse[2]  : errStr;
